@@ -57,3 +57,4 @@ function contador() {
     document.getElementById("contador_madeiras").value = "x" + contador_jogo
 }
 
+function 
