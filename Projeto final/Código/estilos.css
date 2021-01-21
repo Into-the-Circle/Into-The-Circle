@@ -1,0 +1,12 @@
+body{
+    background-image: url("imagens/fundo_nivel_1.jpg");
+    background-size: cover;
+    position: fixed;
+}
+
+#icone_contador{
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 6%;
+    width: 6%;
+}
