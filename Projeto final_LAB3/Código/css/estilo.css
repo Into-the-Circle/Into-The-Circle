@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("imgs/fundo_nivel_1.jpg");
+	background-size: cover;
+	overflow: hidden;
+}
+
+span{
+    font-weight: bold;
+}
+
+#icone_contador{
+	margin: 10px;
+}
+
+#tempo_txt{
+	background: rgba(0,0,0,0.3);
+	height: 35px;
+	width: 60px;
+	margin-left: 90px;
+	margin-top: 13px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	border: 0px;
+	font-size: 20px;
+}
+
+.panel-help {
+	margin-top: 5%;
+}
+
+#div_ajuda #icone_teclas{
+	width: 25%;
+	height: 25%;
+}
+
+#div_ajuda {
+	background-color: #A6B8A3;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+
+	/* http://css-tricks.com/64-css-transparency-settings-for-all-broswers/ */
+	/* Theoretically for IE 8 & 9 (more valid) */
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity = 95);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity: 0.95;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.95;
+	/* Modern!
+				/* Firefox 0.9+, Safari 2?, Chrome any?
+				/* Opera 9+, IE 9+ */
+	opacity: 0.95;
+}
+
+#main {
+	overflow: hidden;
+}
+#main img {
+	position: absolute;
+}
+
